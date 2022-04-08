@@ -25,8 +25,9 @@ body {
     padding-top: 37px;
 }
 .product-new {
-    padding: 0px 32px;
+    padding: 0px 27px;
     padding-bottom: 10px;
+    margin: 0px 5px;
 }
 .see-more {
     position: relative;
@@ -70,7 +71,9 @@ body {
     margin: auto;
     padding: 0 20px;
 }
-.product-new.product-active {border-bottom: 3px solid #ee2e24;}
+.product-new.product-active {
+    border-bottom: 3px solid #ee2e24;
+}
 .list-product {
     border-top: 1px solid rgba(249, 155, 42, 1);
     position: relative;
@@ -95,7 +98,7 @@ body {
     text-align: center;
     text-transform: uppercase;
     color: #EE2E24;
-    }
+}
 .see-more-product {
     margin-top: 40px;
 }
@@ -142,38 +145,47 @@ body {
     object-fit: cover;
     max-height: 278px;
 }
+.product-new:hover a {
+    color: #ee2e24;
+}
+.product-new.product-active a {
+    color: #ee2e24;
+}
+.product-new:hover {
+    border-bottom: 3px solid #ee2e24;
+}
 @media(max-width:991px){
 
-    .title-product {
-        flex-wrap: wrap;
-        text-align: center;
-    }
-    .product-new {
-        width: 100%;
-        padding-bottom: 20px;
-    }
-    .product-new a {
-        font-size: 16px;
-    }
-    .see-more a {
-        font-size: 12px;
-    }
-    .price {
-        font-size: 14px;
-    }
-    .name-product p {
-        font-size: 14px;
-    }
-    .all-product .swiper-button-next, .all-product .swiper-rtl .swiper-button-prev {
-        height: 30px;
-        width: 30px;
-        right: 0;
-    }
-    .all-product  .swiper-button-prev, .all-product  .swiper-rtl .swiper-button-next{
-        height: 30px;
-        width: 30px;
-        left: 0;
-    }
+.title-product {
+    flex-wrap: wrap;
+    text-align: center;
+}
+.product-new {
+    width: 100%;
+    padding-bottom: 20px;
+}
+.product-new a {
+    font-size: 16px;
+}
+.see-more a {
+    font-size: 12px;
+}
+.price {
+    font-size: 14px;
+}
+.name-product p {
+    font-size: 14px;
+}
+.all-product .swiper-button-next, .all-product .swiper-rtl .swiper-button-prev {
+    height: 30px;
+    width: 30px;
+    right: 0;
+}
+.all-product  .swiper-button-prev, .all-product  .swiper-rtl .swiper-button-next{
+    height: 30px;
+    width: 30px;
+    left: 0;
+}
 
 
 }
