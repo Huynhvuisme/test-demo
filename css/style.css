@@ -163,6 +163,7 @@ body {
 .product-new {
     width: 100%;
     padding-bottom: 20px;
+    padding: 0;
 }
 .product-new a {
     font-size: 16px;
