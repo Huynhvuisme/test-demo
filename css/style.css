@@ -22,15 +22,11 @@ body {
     width: 70%;
     justify-content: center;
     margin: auto;
-    padding-top: 40px;
+    padding-top: 37px;
 }
 .product-new {
-    padding: 0 30px;
-}
-.product-new.product-active a {
-    color: #ee2e24;
-    text-decoration: underline;
-    text-underline-offset: 10px;
+    padding: 0px 32px;
+    padding-bottom: 10px;
 }
 .see-more {
     position: relative;
@@ -74,6 +70,7 @@ body {
     margin: auto;
     padding: 0 20px;
 }
+.product-new.product-active {border-bottom: 3px solid #ee2e24;}
 .list-product {
     border-top: 1px solid rgba(249, 155, 42, 1);
     position: relative;
@@ -87,6 +84,7 @@ body {
     line-height: 16px;
     text-align: center;
     color: #000000;
+    margin-bottom: 8px;
 }
 .price {
     font-family: 'Josefin Sans';
@@ -101,11 +99,6 @@ body {
 .see-more-product {
     margin-top: 40px;
 }
-.product-new a:hover {
-    color: #ee2e24;
-    text-decoration: underline;
-    text-underline-offset: 10px
-}
 .see-more:hover:before {
     right: 15px;
     transition: 0.5s;
@@ -113,7 +106,10 @@ body {
 .all-product  .swiper-button-next, .all-product  .swiper-rtl .swiper-button-prev {
     background: #F99B2A;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.15);
-    border-radius: 10px;height: 40px;width: 40px;
+    border-radius: 10px;
+    height: 40px;
+    width: 40px;
+    top: 44%;
 }
 .all-product  .swiper-button-next:after, .all-product  .swiper-rtl .swiper-button-prev:after {
     height: 22px;
@@ -136,10 +132,15 @@ body {
 .all-product  .swiper-button-prev, .all-product  .swiper-rtl .swiper-button-next{
     background: #F99B2A;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.15);
-    border-radius: 10px;height: 40px;width: 40px;
+    border-radius: 10px;
+    height: 40px;
+    width: 40px;
+    top: 44%;
 }
 .img-product img {
-    width: 100%;object-fit: cover;
+    width: 100%;
+    object-fit: cover;
+    max-height: 278px;
 }
 @media(max-width:991px){
 
